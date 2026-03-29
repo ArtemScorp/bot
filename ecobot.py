@@ -1,4 +1,4 @@
-import os
+import os, json
 from telebot import TeleBot
 
 folder = "images2"
@@ -12,12 +12,12 @@ ac = "one_fakt"
 ad = "two_fakt"
 ae = "three_fakt"
 
-
 @bot.message_handler(commands=["start"])
 def send_detail(message):
     bot.reply_to(
         message, "Тут список всех команд которые раскажут по 1 факту о экологии"
     )
+
     bot.reply_to(message, "/" + ab)
     bot.reply_to(message, "/" + ac)
     bot.reply_to(message, "/" + ad)
