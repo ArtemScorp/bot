@@ -1,0 +1,113 @@
+html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    /* 2 */
+}
+
+/* Sections
+   ========================================================================== */
+
+/**
+ * Remove the margin in all browsers.
+ */
+
+body {
+    /*font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; /* Семейство шрифтов */
+    font: Enter;
+    font-size: 11px;
+    /* Размер основного шрифта в <p></p>  */
+    margin: 0;
+    background-color: #ffffff;
+    /* Цвет фона веб-страницы */
+    color: #ffffff;
+    /* Цвет основного текста */
+    position: absolute;
+    Width: 50%;
+    height: 100%;
+}
+
+
+@keyframes color-change {
+    0% {
+        color: #ff0000
+    }
+    
+    15% {
+        color: #ff8800
+    }
+
+    30% {
+        color: #fffb00
+    }
+
+    45% {
+        color: #15ff00
+    }
+
+    60% {
+        color: #00eeff
+    }
+
+    75% {
+        color: #006eff
+    }
+
+    100% {
+        color: #1900ff
+    }
+}
+
+@keyframes width-change {
+    0% {
+        width: 100%;
+    }
+    
+    15% {
+        WIDTH: 90%
+    }
+
+    30% {
+        width: 80%;
+    }
+
+    45% {
+        width: 70%;
+    }
+
+    60% {
+        width: 80%;
+    }
+
+    75% {
+        width: 90%;
+    }
+
+    100% {
+        width: 100%;
+    }
+
+}
+
+
+h1 {
+    color: #4abe67;
+    /* Цвет заголовка */
+    font-size: 24px;
+    /* Размер шрифта в пунктах */
+    /*font-family: Georgia, serif; /* Семейство шрифтов */
+    animation: color-change 2s infinite;
+    /*animation: width-change 5s infinite;*/
+}
+
+p {
+    color: #ffffff;
+    width: 100px;
+    height: 70px;
+}
+
+
+
+img {
+    width: 150px;
+}
